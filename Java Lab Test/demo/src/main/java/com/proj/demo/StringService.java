@@ -15,8 +15,7 @@ class StringService{
 			return true;
 		return false;
 	}
-
-	//this function assumes str has no numbers or special characters.
+	
 	public String caseFlip(String str, boolean toLower){
 		char x;
 		String nstr = "";
